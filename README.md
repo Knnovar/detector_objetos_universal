@@ -6,7 +6,9 @@ Projeto pessoal cujo objetivo é, desenvolver um script genérico para treinamen
 
 Este projeto contém dois arquivos .py principais, sendo eles o detector universal.py e o treinar_modelo.py, é interessante salientar que, para o uso deste, é necessario entendimento pleno da estrutura de pastas, que são estas: 
 > Extracao_Dados
+
 > Imagens
+
 > Projetos
 
 > Videos 
