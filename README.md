@@ -18,11 +18,12 @@ Este projeto contém dois arquivos .py principais, sendo eles o detector univers
 # Para treinar um modelo 
 Use este comando no terminal para treinar o modelo: python treinar_modelo.py --project 'nome_do_projeto'
 
+# Para executar o projeto de detecção
+
+python detector_universal.py --model Projetos/'nome_do_seu_projeto'/.../'nome_do_modelo'.pt --source 'diretorio_do_video'
+
 # Exemplo 1: Usar o modelo policial para analisar um vídeo
-python detector_universal.py --model projetos/cenario_policial/train/weights/best.pt --source videos_policiais/caso_01.mp4
+python detector_universal.py --model Projetos/cenario_policial/train/weights/best.pt --source Videos/caso_01.mp4
 
 # Exemplo 2: Usar o modelo de jogos para analisar uma captura de tela
-python detector_universal.py --model projects/cenario_gaming/train/weights/best.pt --source screenshots/partida_102.jpg
-
-# Exemplo 3: Usar o modelo de tráfego com a webcam em tempo real
-python detector_universal.py --model projects/cenario_trafego/train/weights/best.pt --source 0
+python detector_universal.py --model Projetos/cenario_gaming/train/weights/best.pt --source Imagens/partida_102.jpg
