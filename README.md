@@ -22,8 +22,8 @@ Use este comando no terminal para treinar o modelo: python treinar_modelo.py --p
 
 python detector_universal.py --model Projetos/'nome_do_seu_projeto'/.../'nome_do_modelo'.pt --source 'diretorio_do_video'
 
-# Exemplo 1: Usar o modelo policial para analisar um vídeo
+### Exemplo 1: Usar o modelo policial para analisar um vídeo
 python detector_universal.py --model Projetos/cenario_policial/train/weights/best.pt --source Videos/caso_01.mp4
 
-# Exemplo 2: Usar o modelo de jogos para analisar uma captura de tela
+### Exemplo 2: Usar o modelo de jogos para analisar uma captura de tela
 python detector_universal.py --model Projetos/cenario_gaming/train/weights/best.pt --source Imagens/partida_102.jpg
